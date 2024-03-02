@@ -1,0 +1,143 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.nav {
+  height: 60px;
+  width: 100%;
+  background-color: #0a152e;
+  box-shadow: 3px 3px 10px inset rgb(184, 49, 49);
+  color: wheat;
+  font-weight: bolder;
+  font-size: large;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.x {
+  height: 30px;
+  width: 90px;
+  background-color: rgb(117, 8, 66);
+}
+.body {
+  position: fixed;
+  top: 60px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.sone {
+  width: 50%;
+  height: 100%;
+
+  box-shadow: 5px 5px 200px inset #9b2226;
+  background-image: url("https://img.freepik.com/premium-vector/hud-screen-sci-fi-cyber-black-white-background_115968-176.jpg");
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  /* background-repeat: no-repeat;
+  background-position: center; */
+}
+.stwo {
+  width: 50%;
+  height: 100%;
+
+  box-shadow: 5px 5px 200px inset #14213d;
+  background-image: url("https://img.freepik.com/premium-vector/abstract-pink-cyber-lines-futurisitc-light-black-design-modern-technology-background-vector_33869-3002.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.hacker {
+  width: 700px;
+  height: 400px;
+  border-radius: 20px;
+  box-shadow: 3px 3px 100px #0a152e;
+
+  background-image: url("https://img.freepik.com/free-photo/white-notebook-black-data-firewall_1150-1733.jpg?size=626&ext=jpg&ga=GA1.1.1395880969.1709337600&semt=sph");
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* hidden */
+.hack {
+  width: 500px;
+  height: 30px;
+  background-color: #0a152e;
+  visibility: hidden;
+  color: aliceblue;
+  text-align: center;
+  padding: 5px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  border-radius: 10px;
+}
+.btns {
+  width: 80px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #ffd166;
+  font-weight: bolder;
+
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.btns:hover {
+  box-shadow: 5px 5px 100px #85cfb6;
+}
+.anss {
+  width: 100%;
+  height: 300px;
+  background-color: transparent;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.ans {
+  color: aliceblue;
+
+  width: 200px;
+  height: 200px;
+  background-color: #2c0735;
+  border-radius: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  padding: 5px;
+}
+.btnst {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 10px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bolder;
+  font-size: large;
+  color: antiquewhite;
+  background-color: #480ca8;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.btn {
+  display: flex;
+  justify-content: space-evenly;
+}
+.ans:hover {
+  box-shadow: 5px 5px 100px #85cfb6;
+}
+.btnst:hover {
+  box-shadow: 5px 5px 100px #85cfb6;
+}
