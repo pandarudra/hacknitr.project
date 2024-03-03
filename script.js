@@ -13,25 +13,34 @@ start.onclick = () => {
   if (r >= 0 && r < 3) {
     n = 1;
 
-    hack.innerHTML = "Ransomware";
-    o.innerHTML = "Virus";
-    t.innerHTML = "Cyber Stalking";
-    tr.innerHTML = "Malaware";
+    hack.innerHTML =
+      "The laymen users receive an email with a suspicious link. How can they identify and avoid phishing?";
+    o.innerHTML = " clicks the mail but not the link sent ";
+    t.innerHTML =
+      "clicks the link without doble checking the sender's identity ";
+    tr.innerHTML = "sends the information after clicking the link";
   } else if (r >= 3 && r < 6) {
     n = 0;
 
-    hack.innerHTML = "Malware";
+    hack.innerHTML =
+      "Imagine you've discovered an unknown device connected to your home network. What steps would you take to investigate and secure your network?";
     o.innerHTML =
-      "Exercise Caution with Emails<br>Be Careful with Downloads<br>Enable Firewall Protection<br>Keep Software Updated";
-    t.innerHTML = "Ransomware";
-    tr.innerHTML = "Virus";
+      "As a user, describe the procedures you would follow upon discovering an unfamiliar device connected to your home network.";
+    t.innerHTML =
+      "Share your knowledge on securing a home network and the steps you'd recommend to others facing a similar situation.";
+    tr.innerHTML =
+      "share your feelings on securing a home and the steps you'd recommend to others facing a similar situation.";
   } else {
     n = -1;
 
-    hack.innerHTML = "Phishing and Social Engineering Attacks";
-    o.innerHTML = "Vishing";
-    t.innerHTML = "Malaware";
-    tr.innerHTML = "Cyber Stalking";
+    hack.innerHTML =
+      "As a user, your antivirus software has detected a potential threat on your computer. What actions would you take to mitigate the risk and prevent further compromise?";
+    o.innerHTML =
+      "Share your knowledge on collaborative efforts among users to identify and halt lateral movement by an unauthorized intruder within a network.";
+    t.innerHTML =
+      "Share your expertise in handling potential threats detected by antivirus software and preventing their escalation on a personal computer.";
+    tr.innerHTML =
+      "Describe the steps you would follow as a user when your antivirus software flags a potential threat, focusing on mitigating risks and preventing further compromise.";
   }
 };
 o.onclick = () => {
